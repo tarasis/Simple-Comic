@@ -9,7 +9,7 @@
 #import "DTPartialArchiveParser.h"
 #include <XADMaster/XADArchive.h>
 
-@interface DTPartialArchiveParser () <XADArchiveParserDelegate>
+@interface DTPartialArchiveParser ()
 
 @end
 

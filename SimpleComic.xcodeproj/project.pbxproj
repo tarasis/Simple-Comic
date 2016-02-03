@@ -41,11 +41,6 @@
 		5538C2021C0E1A7C00744130 /* TSSTInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538C2011C0E1A7C00744130 /* TSSTInfoView.swift */; };
 		5589952E1A13D4450058830B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5589952D1A13D4450058830B /* Media.xcassets */; };
 		5599515E1BDC0A400086661A /* DTPolishedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599515D1BDC0A400086661A /* DTPolishedProgressBar.swift */; };
-		559EF18C1BDD380400FAAA0A /* XADMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559EF1851BDD380400FAAA0A /* XADMaster.framework */; };
-		559EF18D1BDD380400FAAA0A /* XADMaster.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 559EF1851BDD380400FAAA0A /* XADMaster.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		559EF3E01BDD38F400FAAA0A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 559EF3DF1BDD38F400FAAA0A /* libz.tbd */; };
-		559EF3E21BDD390000FAAA0A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 559EF3E11BDD390000FAAA0A /* libbz2.tbd */; };
-		559EF3E41BDD3D3D00FAAA0A /* XADMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559EF1851BDD380400FAAA0A /* XADMaster.framework */; };
 		559EF3EB1BDD473B00FAAA0A /* TSSTThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559EF3EA1BDD473B00FAAA0A /* TSSTThumbnailView.swift */; };
 		55C374251BD9E6AF006385B6 /* DTPartialArchiveParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C374111BD9E6AF006385B6 /* DTPartialArchiveParser.h */; };
 		55C374261BD9E6AF006385B6 /* DTPartialArchiveParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C374121BD9E6AF006385B6 /* DTPartialArchiveParser.m */; };
@@ -64,23 +59,157 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A6D63DA717C2B8F2000272F1 /* TSSTSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770B6D0DBA8B1C00A78646 /* TSSTSegmentedControl.m */; };
+		D4B0EAB01C626AC800CA04BD /* XADMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B0EA951C626A0100CA04BD /* XADMaster.framework */; };
+		D4B0EAB11C626ACE00CA04BD /* UniversalDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B0EA781C6269B100CA04BD /* UniversalDetector.framework */; };
+		D4B0EAB21C626AE200CA04BD /* UniversalDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B0EA781C6269B100CA04BD /* UniversalDetector.framework */; };
+		D4B0EAB31C626AE200CA04BD /* XADMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B0EA951C626A0100CA04BD /* XADMaster.framework */; };
+		D4B0EAB41C626E5300CA04BD /* XADMaster.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D4B0EA951C626A0100CA04BD /* XADMaster.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4B0EAB51C626E5300CA04BD /* UniversalDetector.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D4B0EA781C6269B100CA04BD /* UniversalDetector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4B0EAB61C626E9500CA04BD /* UniversalDetector.framework in Resources */ = {isa = PBXBuildFile; fileRef = D4B0EA781C6269B100CA04BD /* UniversalDetector.framework */; };
+		D4B0EAB71C626E9900CA04BD /* XADMaster.framework in Resources */ = {isa = PBXBuildFile; fileRef = D4B0EA951C626A0100CA04BD /* XADMaster.framework */; };
 		FA9FB53508AADA270085AA55 /* TSSTCustomValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB53408AADA270085AA55 /* TSSTCustomValueTransformers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		559EF18A1BDD380400FAAA0A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 559EF1841BDD380400FAAA0A;
-			remoteInfo = XADMaster;
-		};
 		55C3745A1BD9EFE2006385B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55C374041BD9E67D006385B6;
 			remoteInfo = QuickComic;
+		};
+		D4B0EA771C6269B100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA6F1C6269B100CA04BD /* UniversalDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = UniversalDetector;
+		};
+		D4B0EA791C6269B100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA6F1C6269B100CA04BD /* UniversalDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B23E0871190F29400620319;
+			remoteInfo = libUniversalDetector.a;
+		};
+		D4B0EA7B1C6269B100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA6F1C6269B100CA04BD /* UniversalDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B91CBE011D821A70081E40A;
+			remoteInfo = libUniversalDetector.win.a;
+		};
+		D4B0EA7D1C6269B100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA6F1C6269B100CA04BD /* UniversalDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B467B2615CD9B1F001AB1DD;
+			remoteInfo = libUniversalDetector.ios.a;
+		};
+		D4B0EA7F1C6269B100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA6F1C6269B100CA04BD /* UniversalDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B0DDCAB0A2D0AD10009B697;
+			remoteInfo = DetectorTest;
+		};
+		D4B0EA941C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = XADMaster;
+		};
+		D4B0EA961C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B34A97511C2FD0500396C26;
+			remoteInfo = libXADMaster.a;
+		};
+		D4B0EA981C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B91CD5E11D97E7C0081E40A;
+			remoteInfo = libXADMaster.win.a;
+		};
+		D4B0EA9A1C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B467B0115CD9A73001AB1DD;
+			remoteInfo = libXADMaster.ios.a;
+		};
+		D4B0EA9C1C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B5A7BA30A24F9B400B189EB;
+			remoteInfo = XADTest;
+		};
+		D4B0EA9E1C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1BBAB68B0EC274A3007FE6A2;
+			remoteInfo = XADTest2;
+		};
+		D4B0EAA01C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1BC8931A0ED6F283006B47FE;
+			remoteInfo = XADTest3;
+		};
+		D4B0EAA21C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B3A68A2101BA12C00AE25A8;
+			remoteInfo = XADTest4;
+		};
+		D4B0EAA41C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B342390131D8B5B00CCDF77;
+			remoteInfo = XADTest5;
+		};
+		D4B0EAA61C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B31CB9213C6423600ED119E;
+			remoteInfo = XADTest6;
+		};
+		D4B0EAA81C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B23DDC01185EBA300620319;
+			remoteInfo = unar;
+		};
+		D4B0EAAA1C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B91D18F11E1677B0081E40A;
+			remoteInfo = lsar;
+		};
+		D4B0EAAC1C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B91CDAC11D981E20081E40A;
+			remoteInfo = unar.exe;
+		};
+		D4B0EAAE1C626A0100CA04BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B91D2EE11E694860081E40A;
+			remoteInfo = lsar.exe;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -102,7 +231,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				559EF18D1BDD380400FAAA0A /* XADMaster.framework in Copy Frameworks */,
+				D4B0EAB41C626E5300CA04BD /* XADMaster.framework in Copy Frameworks */,
+				D4B0EAB51C626E5300CA04BD /* UniversalDetector.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,7 +321,6 @@
 		5598943A1BDA07E000FCA002 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5599515C1BDC0A3F0086661A /* Simple Comic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Comic-Bridging-Header.h"; sourceTree = "<group>"; };
 		5599515D1BDC0A400086661A /* DTPolishedProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTPolishedProgressBar.swift; sourceTree = "<group>"; };
-		559EF1851BDD380400FAAA0A /* XADMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XADMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		559EF3DF1BDD38F400FAAA0A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		559EF3E11BDD390000FAAA0A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		559EF3EA1BDD473B00FAAA0A /* TSSTThumbnailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSSTThumbnailView.swift; sourceTree = "<group>"; };
@@ -229,25 +358,19 @@
 		77C8280B06725ACE000B614F /* SimpleComicAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleComicAppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* SimpleComicAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleComicAppDelegate.m; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Simple Comic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Comic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B0EA6F1C6269B100CA04BD /* UniversalDetector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UniversalDetector.xcodeproj; path = Vendor/UniversalDetector/UniversalDetector.xcodeproj; sourceTree = "<group>"; };
+		D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XADMaster.xcodeproj; path = Vendor/XADMaster/XADMaster.xcodeproj; sourceTree = "<group>"; };
 		FA7257EF08A6CE2E006A2A19 /* TSSTPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSTPageView.m; sourceTree = "<group>"; };
 		FA9FB53408AADA270085AA55 /* TSSTCustomValueTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSTCustomValueTransformers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		559EF1811BDD380400FAAA0A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				559EF3E21BDD390000FAAA0A /* libbz2.tbd in Frameworks */,
-				559EF3E01BDD38F400FAAA0A /* libz.tbd in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55C374011BD9E67D006385B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				559EF3E41BDD3D3D00FAAA0A /* XADMaster.framework in Frameworks */,
+				D4B0EAB21C626AE200CA04BD /* UniversalDetector.framework in Frameworks */,
+				D4B0EAB31C626AE200CA04BD /* XADMaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +378,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B0EAB11C626ACE00CA04BD /* UniversalDetector.framework in Frameworks */,
+				D4B0EAB01C626AC800CA04BD /* XADMaster.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				286236020AADDB6200B83E77 /* QuartzCore.framework in Frameworks */,
 				28BD08E60C9836E600BD7EAF /* Quartz.framework in Frameworks */,
-				559EF18C1BDD380400FAAA0A /* XADMaster.framework in Frameworks */,
 				28C1D5600DF1FE37003392B4 /* QuickLook.framework in Frameworks */,
 				285FE3300F945E2300CD8F96 /* Carbon.framework in Frameworks */,
 			);
@@ -300,7 +424,6 @@
 			children = (
 				8D1107320486CEB800E47090 /* Simple Comic.app */,
 				55C374051BD9E67D006385B6 /* QuickComic.qlgenerator */,
-				559EF1851BDD380400FAAA0A /* XADMaster.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -478,6 +601,8 @@
 		55C374501BD9EA8B006385B6 /* Third-party */ = {
 			isa = PBXGroup;
 			children = (
+				D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */,
+				D4B0EA6F1C6269B100CA04BD /* UniversalDetector.xcodeproj */,
 			);
 			name = "Third-party";
 			sourceTree = "<group>";
@@ -488,6 +613,39 @@
 				287D0C0310F058BB00207768 /* Sessions_DataModel.xcdatamodeld */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		D4B0EA701C6269B100CA04BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B0EA781C6269B100CA04BD /* UniversalDetector.framework */,
+				D4B0EA7A1C6269B100CA04BD /* libUniversalDetector.a */,
+				D4B0EA7C1C6269B100CA04BD /* libUniversalDetector.win.a */,
+				D4B0EA7E1C6269B100CA04BD /* libUniversalDetector.ios.a */,
+				D4B0EA801C6269B100CA04BD /* DetectorTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B0EA821C626A0100CA04BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B0EA951C626A0100CA04BD /* XADMaster.framework */,
+				D4B0EA971C626A0100CA04BD /* libXADMaster.a */,
+				D4B0EA991C626A0100CA04BD /* libXADMaster.win.a */,
+				D4B0EA9B1C626A0100CA04BD /* libXADMaster.ios.a */,
+				D4B0EA9D1C626A0100CA04BD /* XADTest */,
+				D4B0EA9F1C626A0100CA04BD /* XADTest2 */,
+				D4B0EAA11C626A0100CA04BD /* XADTest3 */,
+				D4B0EAA31C626A0100CA04BD /* XADTest4 */,
+				D4B0EAA51C626A0100CA04BD /* XADTest5 */,
+				D4B0EAA71C626A0100CA04BD /* XADTest6 */,
+				D4B0EAA91C626A0100CA04BD /* unar */,
+				D4B0EAAB1C626A0100CA04BD /* lsar */,
+				D4B0EAAD1C626A0100CA04BD /* unar.exe */,
+				D4B0EAAF1C626A0100CA04BD /* lsar.exe */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		FA9FB59508AAE3690085AA55 /* Preferences */ = {
@@ -517,13 +675,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		559EF1821BDD380400FAAA0A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55C374021BD9E67D006385B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -536,24 +687,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		559EF1841BDD380400FAAA0A /* XADMaster */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 559EF18E1BDD380400FAAA0A /* Build configuration list for PBXNativeTarget "XADMaster" */;
-			buildPhases = (
-				559EF1801BDD380400FAAA0A /* Sources */,
-				559EF1811BDD380400FAAA0A /* Frameworks */,
-				559EF1821BDD380400FAAA0A /* Headers */,
-				559EF1831BDD380400FAAA0A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = XADMaster;
-			productName = XADMaster;
-			productReference = 559EF1851BDD380400FAAA0A /* XADMaster.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		55C374041BD9E67D006385B6 /* QuickComic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55C3740E1BD9E67D006385B6 /* Build configuration list for PBXNativeTarget "QuickComic" */;
@@ -586,7 +719,6 @@
 			);
 			dependencies = (
 				55C3745B1BD9EFE2006385B6 /* PBXTargetDependency */,
-				559EF18B1BDD380400FAAA0A /* PBXTargetDependency */,
 			);
 			name = "Simple Comic";
 			productInstallPath = "$(HOME)/Applications";
@@ -604,10 +736,6 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Dancing Tortoise Software";
 				TargetAttributes = {
-					559EF1841BDD380400FAAA0A = {
-						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = VE7YM5VVJB;
-					};
 					55C374041BD9E67D006385B6 = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -631,28 +759,168 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* MetaComic */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D4B0EA701C6269B100CA04BD /* Products */;
+					ProjectRef = D4B0EA6F1C6269B100CA04BD /* UniversalDetector.xcodeproj */;
+				},
+				{
+					ProductGroup = D4B0EA821C626A0100CA04BD /* Products */;
+					ProjectRef = D4B0EA811C626A0100CA04BD /* XADMaster.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* Simple Comic */,
 				55C374041BD9E67D006385B6 /* QuickComic */,
-				559EF1841BDD380400FAAA0A /* XADMaster */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		559EF1831BDD380400FAAA0A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXReferenceProxy section */
+		D4B0EA781C6269B100CA04BD /* UniversalDetector.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UniversalDetector.framework;
+			remoteRef = D4B0EA771C6269B100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		D4B0EA7A1C6269B100CA04BD /* libUniversalDetector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUniversalDetector.a;
+			remoteRef = D4B0EA791C6269B100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EA7C1C6269B100CA04BD /* libUniversalDetector.win.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUniversalDetector.win.a;
+			remoteRef = D4B0EA7B1C6269B100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EA7E1C6269B100CA04BD /* libUniversalDetector.ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUniversalDetector.ios.a;
+			remoteRef = D4B0EA7D1C6269B100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EA801C6269B100CA04BD /* DetectorTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DetectorTest;
+			remoteRef = D4B0EA7F1C6269B100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EA951C626A0100CA04BD /* XADMaster.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XADMaster.framework;
+			remoteRef = D4B0EA941C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EA971C626A0100CA04BD /* libXADMaster.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXADMaster.a;
+			remoteRef = D4B0EA961C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EA991C626A0100CA04BD /* libXADMaster.win.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXADMaster.win.a;
+			remoteRef = D4B0EA981C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EA9B1C626A0100CA04BD /* libXADMaster.ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXADMaster.ios.a;
+			remoteRef = D4B0EA9A1C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EA9D1C626A0100CA04BD /* XADTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = XADTest;
+			remoteRef = D4B0EA9C1C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EA9F1C626A0100CA04BD /* XADTest2 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = XADTest2;
+			remoteRef = D4B0EA9E1C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EAA11C626A0100CA04BD /* XADTest3 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = XADTest3;
+			remoteRef = D4B0EAA01C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EAA31C626A0100CA04BD /* XADTest4 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = XADTest4;
+			remoteRef = D4B0EAA21C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EAA51C626A0100CA04BD /* XADTest5 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = XADTest5;
+			remoteRef = D4B0EAA41C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EAA71C626A0100CA04BD /* XADTest6 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = XADTest6;
+			remoteRef = D4B0EAA61C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EAA91C626A0100CA04BD /* unar */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = unar;
+			remoteRef = D4B0EAA81C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EAAB1C626A0100CA04BD /* lsar */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = lsar;
+			remoteRef = D4B0EAAA1C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EAAD1C626A0100CA04BD /* unar.exe */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = unar.exe;
+			remoteRef = D4B0EAAC1C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B0EAAF1C626A0100CA04BD /* lsar.exe */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = lsar.exe;
+			remoteRef = D4B0EAAE1C626A0100CA04BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
 		55C374031BD9E67D006385B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				55C3744B1BD9E8BB006385B6 /* InfoPlist.strings in Resources */,
+				D4B0EAB61C626E9500CA04BD /* UniversalDetector.framework in Resources */,
+				D4B0EAB71C626E9900CA04BD /* XADMaster.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,13 +943,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		559EF1801BDD380400FAAA0A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55C374001BD9E67D006385B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -734,11 +995,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		559EF18B1BDD380400FAAA0A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 559EF1841BDD380400FAAA0A /* XADMaster */;
-			targetProxy = 559EF18A1BDD380400FAAA0A /* PBXContainerItemProxy */;
-		};
 		55C3745B1BD9EFE2006385B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 55C374041BD9E67D006385B6 /* QuickComic */;
@@ -858,67 +1114,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		559EF18F1BDD380400FAAA0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XADMaster/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = de.dstoecker.xadmaster;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		559EF1901BDD380400FAAA0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = XADMaster/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = de.dstoecker.xadmaster;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		55C3740F1BD9E67D006385B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1100,15 +1295,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		559EF18E1BDD380400FAAA0A /* Build configuration list for PBXNativeTarget "XADMaster" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				559EF18F1BDD380400FAAA0A /* Debug */,
-				559EF1901BDD380400FAAA0A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		55C3740E1BD9E67D006385B6 /* Build configuration list for PBXNativeTarget "QuickComic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
